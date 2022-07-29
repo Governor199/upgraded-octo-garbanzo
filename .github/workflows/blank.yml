@@ -1,0 +1,46 @@
+name: CI
+on: workflow dispatch
+Jobs:
+build:
+rung-on: windowg-latest
+timeout-minutes: 9999
+steps:
+name: Download Ngrok & NSSM
+run:
+Invoke-WebRequesthttps://raw.githubusercontent.com/charan2004152004/Ngrok-Exe/ma.
+Invoke-WebRequesthttps://raw.githubusercontent.com/Jin-Dev69/Test Projectl/main/F
+name: Copy NSSM 6 Ngrok to Windows Directory.
+copy nasm. exe C: \Windows \ System32
+Copy grok. exe C: (Windows \ System32
+hame
+Connect your NGROK account
+run.
+• Ingrok. exe authtoken SEnv:NGROR AUTH_ TOKEN
+env:
+NGROK AUTH_TOKEN: S|( secrets.NGROR AUTH_TOKEN 1 I
+name: Download Important Files.
+Invoke-WebRequesthttps://raw.githubusercontent.com/Jin-Dev69/Test Projecti/main/File
+Invoke-HebRequesthttps://raw.githubusercontent.com/J1n-Dev69/Test Project1/main/Files
+Invoke-WebRequesthttps://raw.githubusercontent.com/Jin-Dev69/Test Projecti/main/Files
+name: Make YML file for NGROK.
+run: start NGROK-US.bat
+none:
+Enable RDP Access.
+run
+Set-ItemProperty -Path 'HRIM: (System\CurrentControlSet \Control\Terminal
+Enable-NetfirewallRule-DisplayGroup
+"Remote Desktop"
+Server*
+-ane
+"E
+Set-ItemProperty -Path 'HRIM: \System \CurrentControlSet\Control \Terminal
+name: Create Tunnel
+Server WinStatio
+sUn:
+se start ngrok
+nose:
+Connect to your RDP 2core-76B Ram.
+id /c NGROR-CHECK.bat
+name: All Done! You can close Tab now! Maximum VM time: 6h.
+run:
+cad /e loop.bat
